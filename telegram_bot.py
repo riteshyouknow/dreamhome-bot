@@ -10,7 +10,7 @@ import httpx
 load_dotenv()
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-BACKEND_URL = "http://127.0.0.1:8000/chat"
+BACKEND_URL = "https://dreamhome-bot.onrender.com/chat"  # Update with your backend URL
 
 # Conversation states
 LANGUAGE, CHAT = range(2)
